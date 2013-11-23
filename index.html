@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <style>
             body {
                 padding-top: 50px;
@@ -24,23 +24,28 @@
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
-    <body>
-      <div class="container">
-
+    <body class="container">
+      <header>
+        <div class=" logo">
+          <img src="img/logo.png" alt="logo_ihouse">
+        </div>
+      </header>
+      
+      <nav>
         <ul id="myTab" class="nav nav-tabs">
-          <li class="active"><a href="#ihouse" data-toggle="tab">Sobre IHOUSE</a></li>
-          <li><a href="#domotica" data-toggle="tab">Sobre DOMOTICA</a></li>
+          <li class="active"><a href="#ihouse" data-toggle="tab">NOSOTROS</a></li>
+          <li><a href="#domotica" data-toggle="tab">Sobre la DOMOTICA</a></li>
         </ul>
+      </nav>
 
-        <div id="myTabContent" class="tab-content contab">
-
+      <div id="myTabContent" class="tab-content contab">
           <div class="tab-pane fade in active" id="ihouse">
             <div class="panel-group" id="accordion">
               <div class="panel panel-primary">
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                      Sobre Nosotros
+                      ¿Quiénes somos?
                     </a>
                   </h4>
                 </div>
@@ -54,7 +59,7 @@
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                      Nuestras SOLUCIONES
+                      ¿Qué ofrecemos?
                     </a>
                   </h4>
                 </div>
@@ -102,14 +107,14 @@
 
           </div>
         </div>
-      </div>
+       
 
  
 
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/bootstrap.js"></script>
 
         <script src="js/main.js"></script>
 
