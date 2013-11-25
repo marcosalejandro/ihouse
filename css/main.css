@@ -1,8 +1,12 @@
-body{padding:1em 0 0 0;background:#fff;font-size:16px;}
+body{font-size:16px;}
 body .contab{padding:.5em 0 0 0}
-header .logo{padding:0 0 1em 0;}
+header .logo{margin-top:-3em;padding:1em;}
 header .logo img{width:280px}
 nav{font-size:15px}
 h4{text-align:center}
 h5{font-size:15px;text-align:center;font-weight:bold}
-p{text-align:center;padding:0 0 1em 0;margin:0}
+p{text-align:left;padding:0 0 1em 0;margin:0;font-size:14px}
+.panel-default .panel-body{padding:1em .5em 0 0;margin:0}
+.panel-default p{padding:1em .5em 1em 1.5em}
+.panel-default li{font-size:12px;padding-bottom:.5em}
+.panel-default a{color:#428bca}
